@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat with AI</title>
+</head>
+<body>
+    <h1>Chat with AI</h1>
+    <form method="POST" action="/generate">
+        <input type="text" name="user_input">
+        <input type="submit" value="Send">
+    </form>
+    <div>
+        <p>{{ response }}</p>
+    </div>
+</body>
+</html>
